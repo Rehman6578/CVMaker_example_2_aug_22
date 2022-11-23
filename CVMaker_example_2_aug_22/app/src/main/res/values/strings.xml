@@ -1,0 +1,133 @@
+<resources>
+
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+
+    <string name="app_name">CV Maker</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="achievements_amp_awards"><![CDATA[Achievements & Awards]]></string>
+    <string name="category_icon">Category Icon</string>
+    <string name="skills_notice">If you want to add more then one skill, separate it by comma(,)</string>
+    <string name="languages_notice">If you want to add more then one languages separate it by comma(,)</string>
+    <string name="cv_format_image">CV Format Image</string>
+    <string name="splash_background">Splash background</string>
+    <string name="finalize_cv_content">3.Use a template. The use of template it becomes easier to read and cover the all the aspects of CV </string>
+    <string name="finalize_cv_content_4">4.Check Again and Again.It mean you CV/Resume should be error free regarding Date,Spelling Mistakes etc. </string>
+    <string name="finalize_cv_content_5">5.In Internship CV focus on your academic achievement while in Professional focus on you work achievement and awards. </string>
+    <string name="finalize_cv_content_6">6.Update your CV/Resume to meet the requirements of the JOB </string>
+    <string name="guide_heading">Creating Your CV:</string>
+    <string name="finalize_cv_heading">2.Don‘t be generic. Work out who or which industry sector your CV is destined for and tailor it to highlight the right aspects of your experience for them.</string>
+    <string name="cv_guide">1.Your CV should demonstrate your unique blend of skills and experience.</string>
+    <string name="cv_example">CV Example</string>
+    <string name="cv_examples_heading">CV examples</string>
+    <string name="cv_examples_content">Use The CV as shown.Try To focus on your strength and then select your CV Template</string>
+    <string name="crop">Crop</string>
+    <string name="cropping_image_view">Cropping Image View</string>
+    <string name="select_format">Select Format</string>
+    <string name="change">Add Image From Gallery</string>
+    <string name="viewpager_heading">Select Template</string>
+    <string name="viewpegr_headng_last">Include</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="name">Name</string>
+    <string name="father_name">Father Name</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="email_id">Email ID</string>
+    <string name="address">Address</string>
+    <string name="passport_identification_number">Passport/Identification Number</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="nationality">Nationality</string>
+    <string name="objective">Objective</string>
+    <string name="objective_statement">Objective Statement</string>
+    <string name="education">Education</string>
+    <string name="degree_title">Degree Title</string>
+    <string name="college_institute_name">College/Institute Name</string>
+    <string name="starting_year">Starting Year</string>
+    <string name="completion_year">Completion Year</string>
+    <string name="total_marks">Total Marks</string>
+    <string name="obtained_marks">Obtained Marks</string>
+    <string name="experience">Experience</string>
+    <string name="company_organization_name">Company/Organization Name</string>
+    <string name="job_title">Job Title</string>
+    <string name="job_description">Job Description</string>
+    <string name="city">City</string>
+    <string name="country">Country</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="hobbies_and_interests">Hobbies and Interests</string>
+    <string name="languages">Languages</string>
+
+    <string name="project">Project</string>
+    <string name="project_name">Project Name</string>
+    <string name="project_description">Project Description</string>
+    <string name="references">References</string>
+    <string name="skills">Skills</string>
+    <string name="previous">previous</string>
+    <string name="skip">skip</string>
+    <string name="next">next</string>
+    <string name="create_cv">create cv</string>
+    <string name="rate_us">rate us</string>
+    <string name="more_apps">more apps</string>
+    <string name="open_share">open/share</string>
+    <string name="cv_tips">cv tips</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="help">HELP</string>
+    <string name="interstitial">1033173712</string>
+
+    <string name="banner_id">6300978111</string>
+
+    <string name="native_id">/2247696110</string>
+
+    <string name="step4_det">Input Your Info in the fields</string>
+    <string name="string_note">Adding more Inforamation</string>
+    <string name="string_note_det">Use the round button to add more information in the given field.For Example adding your education from school,college and University</string>
+    <string name="string_step1">STEP 1</string>
+    <string name="step2_detail">Select the Information by thicking the check to add the data in the CV and click NEXT</string>
+    <string name="step2">STEP 2</string>
+    <string name="step3">STEP 3</string>
+    <string name="step3_det">Pick the THEME color of your CV and tap OK.</string>
+    <string name="pattern9_natinality">Nationality</string>
+    <string name="exit">Exit</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="next_button">Next</string>
+    <string name="take_time_to_rate">If you like us.Please take time to RATE US</string>
+    <string name="cv_generated">CV Generated</string>
+    <string name="email">Email</string>
+    <string name="from">from</string>
+    <string name="starting_year_pat0">Starting Year :</string>
+    <string name="completion_yr_pat0">Completion Year :</string>
+    <string name="marks_obt_pat0">Marks obtained</string>
+    <string name="out_of_pat0">out of</string>
+    <string name="company_pat0">Company :</string>
+    <string name="title_pat0">Title :</string>
+    <string name="discription_pat0">Description :</string>
+    <string name="city_pat0">City :</string>
+    <string name="contry_pat0">Country :</string>
+    <string name="start_date_pat0">Start Date :</string>
+    <string name="end_date_pat0">End Date :</string>
+    <string name="name_pat0">Name :</string>
+    <string name="organization_pat0">Organization :</string>
+    <string name="contact_number_pat0">Contact :</string>
+    <string name="cancel">Cancel</string>
+    <string name="feedback">FeedBack</string>
+
+
+    <string-array name="info_category_array">
+        <item>Personal Information</item>
+        <item>Objective</item>
+        <item>Education</item>
+        <item>Skills</item>
+        <item>Experience</item>
+        <item>Hobbies</item>
+        <item>Languages</item>
+        <item>Achievements</item>
+        <item>Projects</item>
+        <item>References</item>
+        <item>Add Image</item>
+
+
+    </string-array>
+</resources>

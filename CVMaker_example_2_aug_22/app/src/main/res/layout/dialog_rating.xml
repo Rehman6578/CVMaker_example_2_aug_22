@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/loading"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_shape"
+    android:gravity="center"
+    android:layout_margin="14dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llBkg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_shape_top"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:ellipsize="end"
+            android:gravity="center"
+
+            android:padding="5dp"
+            android:singleLine="true"
+            android:text="Did You like App ?"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="7dp"
+        android:text="Kindly Review the app to analyze user satisfaction  "
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <RatingBar
+            android:id="@+id/ratingBar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llBtnGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btnPositive"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+
+            android:clickable="true"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:text="@string/cancel"
+            android:textColor="#676767" />
+
+
+        <TextView
+            android:id="@+id/btnNegative"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+
+            android:clickable="true"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:text="O"
+            android:visibility="gone"
+            android:textColor="#676767" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

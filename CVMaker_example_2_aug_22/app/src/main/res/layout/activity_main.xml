@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_marginTop="50dp"
+    tools:context="activities.MainActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/button_cv_tips"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="25dp"
+            android:drawableTop="@drawable/ic_tips"
+            android:layout_margin="5dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="@drawable/button_shape1"
+          android:text="@string/cv_tips" />
+
+        <Button
+            android:id="@+id/@+id/button_open_share_cv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="25dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_shape1"
+            android:drawableTop="@drawable/ic_open"
+            android:text="@string/open_share"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l2"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/button_create_cv"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/ic_create"
+                android:textColor="#ffffff"
+
+                android:paddingTop="25dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape1"
+                android:text="@string/create_cv"/>
+
+            <Button
+                android:id="@+id/button_cv_example"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/ic_sample"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:paddingTop="25dp"
+                android:background="@drawable/button_shape1"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="@string/cv_example" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/button_more_apps"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_more"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:paddingTop="25dp"
+            android:background="@drawable/button_shape1"
+            android:text="@string/more_apps" />
+
+        <Button
+            android:id="@+id/button_rate_us"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:drawableTop="@drawable/ic_rate"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:paddingTop="25dp"
+            android:background="@drawable/button_shape1"
+            android:text="@string/rate_us" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/flashBelowButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/flashAboveButton"
+        android:text="Below L"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/flashAboveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Above L"
+        android:visibility="gone" />
+    </LinearLayout>
+
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView4_main_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_id"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

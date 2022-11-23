@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:background="@color/colorPrimaryDark"
+    android:paddingTop="30dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="9dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_above="@+id/tv2222"
+        android:text="CV MAKER "/>
+    <TextView
+        android:id="@+id/tv2222"
+        android:layout_width="match_parent"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginBottom="18dp"
+        android:layout_above="@+id/imgggg"
+        android:text=" Create Resume with Range of different Templates"/>
+
+
+    <ImageView
+    android:id="@+id/imgggg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:background="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="Side Keeper Apps \n Presentation "
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:layout_marginBottom="19dp"
+          />
+
+    <ProgressBar
+
+        android:id="@+id/spin_kit"
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+         android:layout_above="@+id/textView3"
+         />
+
+
+
+
+</RelativeLayout>
